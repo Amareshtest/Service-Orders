@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:4004
+
+### Fetch all Service Requests
+GET {{baseUrl}}/vehicle/ServiceRequests
+Accept: application/json
+
+###
+POST {{baseUrl}}/vehicle/ServiceRequests
+Content-Type: application/json
+
+{
+"customerName": "Monalisha",
+"title": "Engine oil change",
+"priority": "LOW",
+"status": "CLOSED"
+}
