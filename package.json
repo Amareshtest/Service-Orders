@@ -1,0 +1,31 @@
+{
+  "name": "service-orders",
+  "version": "1.0.0",
+  "description": "Welcome to your new CAP project.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amareshtest/Service-Orders.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Amareshtest/Service-Orders/issues"
+  },
+  "homepage": "https://github.com/Amareshtest/Service-Orders#readme",
+  "dependencies": {
+    "@sap/cds": "^10.2.1",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^3.1.2"
+  }
+}
